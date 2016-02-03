@@ -12,6 +12,7 @@ layout: default
 
     {% for post in site.posts %}
       <li>
+        {% img test.svg data:uri %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>

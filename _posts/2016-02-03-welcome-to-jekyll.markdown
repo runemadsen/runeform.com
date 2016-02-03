@@ -1,5 +1,6 @@
 ---
 layout: default
+svg: test.svg
 title:  "Welcome to Jekyll!"
 date:   2016-02-03 10:08:23 -0500
 categories: jekyll update
