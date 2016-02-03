@@ -4,6 +4,9 @@
   padding-top: 3em;
 }
 
+// Layout: Sidebar and main view
+// -------------------------------------------------
+
 .aside-main {
 
   display: flex;
@@ -13,7 +16,17 @@
   }
 
   aside {
-    flex: 0 0 250px;
+    flex: 0 0 200px;
   }
 
+}
+
+// Layout: Two grid
+// -------------------------------------------------
+
+.two-grid {
+  display: flex;
+  .grid-item {
+    flex: 1;
+  }
 }

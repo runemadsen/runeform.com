@@ -1,0 +1,14 @@
+.post-card {
+  a {
+    border-bottom: none;
+    color: $fontBlack;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &:nth-child(1) {
+    padding-right: 1.5em;
+  }
+}

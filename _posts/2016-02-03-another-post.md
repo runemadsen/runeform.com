@@ -1,10 +1,10 @@
 ---
 layout: default
 svg: test.svg
-title:  "Welcome to Jekyll!"
+title:  This is another post
 date:   2016-02-03 10:08:23 -0500
 categories: texts
-description: This is something I want to say about this post. It should be slightly longer than a single line of text and probably mean something instead of this non-sense.
+description: This is something I want to say about this post. It should be slightly shorter than a single line of text and probably mean something.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
