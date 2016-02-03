@@ -1,0 +1,16 @@
+body {
+  font-size: 100%;
+  font-family: $fontNormal;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid $fontGrayLight;
+}
+
+p {
+  font-size: 1.15em;
+  line-height: 1.6em;
+  margin-left: 2.2em;
+}

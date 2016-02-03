@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-top: 3em;
+}
+
+.aside-main {
+
+  display: flex;
+
+  main {
+    flex: 1;
+  }
+
+  aside {
+    flex: 0 0 250px;
+  }
+
+}
