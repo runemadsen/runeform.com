@@ -1,1 +1,1 @@
-bundle exec JEKYLL_ENV=production jekyll build --destination _site_prod
+JEKYLL_ENV=production bundle exec jekyll build --destination _deploy

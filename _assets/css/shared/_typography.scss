@@ -2,9 +2,11 @@ body {
   font-size: 100%;
   font-family: $fontNormal;
   color: $fontBlack;
+  font-weight: 400;
 }
 
 a {
+  color: $fontBlack;
   text-decoration: none;
   border-bottom: 1px solid $fontGrayLight;
 }
@@ -12,4 +14,23 @@ a {
 p {
   font-size: 1.15em;
   line-height: 1.6em;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 0.95em;
+  letter-spacing: -0.02em;
+  font-family: $fontBold;
+  margin-bottom: 0.1em;
+  font-weight: 700;
+}
+
+h2 {
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.8em;
+  line-height: 0.95em;
+  letter-spacing: -0.02em;
+  font-family: $fontBold;
+  margin-bottom: 0.1em;
+  font-weight: 500;
 }

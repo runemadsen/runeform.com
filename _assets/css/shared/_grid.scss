@@ -8,15 +8,26 @@
 // -------------------------------------------------
 
 .aside-main {
-
-  display: flex;
-
-  main {
-    flex: 1;
-  }
-
   aside {
-    flex: 0 0 200px;
+    display: none;
+  }
+}
+
+@media (min-width: $mobileBreak) {
+
+  .aside-main {
+
+    display: flex;
+
+    main {
+      flex: 1 1 auto;
+    }
+
+    aside {
+      display: block;
+      flex: 0 0 180px;
+    }
+
   }
 
 }
@@ -25,8 +36,23 @@
 // -------------------------------------------------
 
 .two-grid {
-  display: flex;
   .grid-item {
-    flex: 1;
+    padding-bottom: 0.8em;
+  }
+}
+
+@media (min-width: $tabletBreak) {
+  .two-grid {
+    display: flex;
+    flex-wrap: wrap;
+    .grid-item {
+      flex: 0 0 50%;
+      &:nth-child(odd) {
+        padding-right: 0.5em;
+      }
+      &:nth-child(even) {
+        padding-left: 0.5em;
+      }
+    }
   }
 }

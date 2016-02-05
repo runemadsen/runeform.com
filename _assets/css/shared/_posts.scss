@@ -1,14 +1,22 @@
 .post-card {
+
+  position: relative;
+
   a {
     border-bottom: none;
     color: $fontBlack;
   }
+
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
-  &:nth-child(1) {
-    padding-right: 1.5em;
+  h2 {
+    font-size: 1.5em;
+    margin: 0;
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
   }
 }

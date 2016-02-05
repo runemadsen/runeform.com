@@ -1,8 +1,8 @@
 ---
 layout: default
 svg: test.svg
-title:  Basic shapes
-date:   2016-02-03 10:08:23 -0500
+title:  Basic repetition
+date:   2016-02-04 10:08:23 -0500
 categories: texts
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
