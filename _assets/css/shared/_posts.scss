@@ -52,6 +52,19 @@
     }
   }
 
+  figure {
+    margin-bottom: 1.8em;
+  }
+
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+
+  .two-grid {
+    margin-top: 1.8em;
+  }
+
 }
 
 @media (min-width: $mobileBreak) {
