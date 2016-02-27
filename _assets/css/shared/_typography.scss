@@ -39,3 +39,13 @@ h2 {
   margin-bottom: 0.1em;
   font-weight: 500;
 }
+
+code {
+  color: $fontBlack;
+  font-size: 0.95em;
+  line-height: 1.3em;
+  max-width: 730px;
+  background-color: $colorGrayLight;
+  padding: 0.1em 0.3em;
+  font-family: Consolas, Menlo, monospace;
+}
