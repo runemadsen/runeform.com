@@ -34,6 +34,7 @@
     }
 
     p.dek {
+      max-width: 100%;
       margin: 0 0 0.5em 0;
       font-size: 1.3em;
       line-height: 1.5em;
@@ -51,7 +52,11 @@
     }
   }
 
-  p {
+}
+
+@media (min-width: $mobileBreak) {
+
+  .post p {
     max-width: 630px;
     margin-left: 2.2em;
   }

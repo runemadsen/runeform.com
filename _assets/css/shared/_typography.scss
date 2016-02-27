@@ -16,6 +16,11 @@ p {
   line-height: 1.6em;
 }
 
+strong {
+  font-family: $fontBold;
+  font-weight: 700;
+}
+
 h1 {
   font-size: 2.4em;
   line-height: 0.95em;
