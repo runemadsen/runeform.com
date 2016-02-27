@@ -25,4 +25,12 @@ By changing the **position** and **rotation** of the rectangle, we can make it s
   {% include svg.html src="canvas-and-shape/lean.svg" caption="A leaning rectangle." %}
 </div>
 
-By working with these basic variables, we can create a range of expressions, and it's a good habit to keep these in mind as you add more techniques to your visual vocabulary. It's also beneficial to consider using a vertical or square canvas, as the dimensions of the canvas itself has a big effect on the design.
+It's important to note that changing the size of the canvas has a drastic effect on the overall design, so it's often helpful to play around with horizontal, vertical, and square canvases. In a program like Illustrator, this would take a lot of manual work, but we can take advantage of the fact that we're generating these designs in code.
+
+Making a design **responsive** to the canvas means that you use the width and height of the canvas to calculate the
+
+GOOD / BAD... Code walkthrough???
+
+
+
+If you start to evaluate existing designs, it's common to find problems that can be traced back to the use of position, size, and rotation. Whether it's user interface that fails to emphasize an important button, or a graph that has ambiguity around its underlying dataset, it's clear that some designers rush to make things pretty without thinking about these very basic relationships. This should be seen as a failure of design, and one is much better off by considering these simple variables as a vital part of the design process.
