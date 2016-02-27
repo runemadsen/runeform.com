@@ -10,3 +10,5 @@ As you're starting your journey into the field of graphic design, it's wise to s
 
 The most basic of these relationships is the one between the canvas and the shapes within it. It's possible to create a range of different expressions by changing a few variables of a single shape within the canvas. In the following, we will use the **position**, **size** and **rotation** of a
 single rectangle to investigate the qualities of this simple relationship.
+
+By changing the **size** of a shape, we can communicate whether that shape is important or not.
