@@ -20,3 +20,40 @@
     left: 0.8em;
   }
 }
+
+.post {
+
+  header {
+    max-width: 730px;
+    border-bottom: 1px solid $borderGrayLight;
+    padding: 1em 0;
+    margin-bottom: 2em;
+
+    h1 {
+      margin: 0 0 0.5em 0;
+    }
+
+    p.dek {
+      margin: 0 0 0.5em 0;
+      font-size: 1.3em;
+      line-height: 1.5em;
+    }
+
+    p.author {
+      font-size: 1.1em;
+      font-family: $fontBold;
+      margin: 0;
+
+      a {
+        border-bottom: none;
+        color: $fontBlack;
+      }
+    }
+  }
+
+  p {
+    max-width: 630px;
+    margin-left: 2.2em;
+  }
+
+}

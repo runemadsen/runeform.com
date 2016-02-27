@@ -8,6 +8,8 @@ baseurl: ""
 url: "http://www.runeform.com"
 twitter_username: runeform
 github_username:  runemadsen
+author: Rune Madsen
+author_twitter: runemadsen
 markdown: kramdown
 exclude: [Gemfile, Gemfile.lock]
 permalink: /:categories/:title
