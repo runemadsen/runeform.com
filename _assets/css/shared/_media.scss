@@ -1,6 +1,18 @@
-figure {
-  figcaption {
-    margin-top: 0.8em;
-    color: $fontGray;
+.code-box {
+  &.do {
+    .caption {
+      color: green;
+    }
+    pre {
+      background-color: green;
+    }
+  }
+  &.dont {
+    .caption {
+      color: red;
+    }
+    pre {
+      background-color: red;
+    }
   }
 }

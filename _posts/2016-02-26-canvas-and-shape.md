@@ -25,10 +25,23 @@ By changing the **position** and **rotation** of the rectangle, we can make it s
   {% include svg.html src="canvas-and-shape/lean.svg" caption="A leaning rectangle." %}
 </div>
 
-EXISTING DESIGNS HERE
+With just these few variables... existing designs
 
 It's important to note that changing the size of the canvas has a drastic effect on the overall design, so it's often helpful to play around with horizontal, vertical, and square canvases. In a program like Illustrator, this would take a lot of manual work, as you would need to reposition every shape after changing the canvas. But we can take advantage of the fact that we're generating these designs in code, and write our code in a responsive way. This means that instead of using hardcoded numbers as `x` and `y` values, we use the width and height of the canvas to calculate the positions instead.
 
-GOOD / BAD
+<div class="code-box">
+  <span class="caption">This is something</span>
+  <pre>rect(900, 900, 100, 100);</pre>
+</div>
+
+<div class="code-box do">
+  <span class="caption">Do use dynamic numbers</span>
+  <pre>rect(900, 900, 100, 100);</pre>
+</div>
+
+<div class="code-box dont">
+  <span class="caption">Do not use hardcoded numbers</span>
+  <pre>rect(900, 900, 100, 100);</pre>
+</div>
 
 If you start to evaluate existing designs, it's common to find problems that can be traced back to the use of position, size, and rotation. Whether it's a user interface that fails to emphasize an important button, or a graph with ambiguity around its underlying dataset, it's clear that some designers rush to make things pretty without thinking about these basic relationships. This should be seen as a failure of design, and one is much better off including these ideas as a vital part of any design process.

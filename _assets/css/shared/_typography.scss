@@ -47,5 +47,9 @@ code {
   max-width: 730px;
   background-color: $colorGrayLight;
   padding: 0.1em 0.3em;
-  font-family: Consolas, Menlo, monospace;
+  font-family: $fontCode;
+}
+
+.caption, figcaption {
+  color: $fontGray;
 }

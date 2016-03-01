@@ -54,6 +54,9 @@
 
   figure {
     margin-bottom: 1.8em;
+    img {
+      margin-bottom: 0.8em;
+    }
   }
 
   figure img {
@@ -67,11 +70,22 @@
 
 }
 
+// Bigger than mobile
+// -------------------------------------------
+
 @media (min-width: $mobileBreak) {
 
-  .post p {
-    max-width: 630px;
-    margin-left: 2.2em;
+  .post {
+
+    p {
+      max-width: 640px;
+      margin-left: 40px;
+    }
+
+    .code-box {
+      max-width: 720px;
+    }
+
   }
 
 }
