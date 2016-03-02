@@ -1,0 +1,10 @@
+<figure class="{{ include.class }}">
+  {% if include.datauri == "true" %}
+    {% img '{{ include.src }}' data:uri %}
+  {% else %}
+    {% img '{{ include.src }}' %}
+  {% endif %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
