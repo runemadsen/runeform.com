@@ -39,4 +39,8 @@ It's important to note that changing the size of the canvas has a big effect on 
 
 {% include code_static.html caption="Do use width and height to calculate position." class="media-width do" code="rect(width - 100, height - 100, 100, 100);" %}
 
+
+Add something about coding our first design system: how to make dynamic designs with random and then calculate position. 
+
+
 If you start to evaluate existing designs, it's common to find problems that can be traced back to the use of position, size, and rotation. Whether it's a user interface that fails to emphasize an important button, or a graph with ambiguity around its underlying dataset, it's clear that some designers rush to make things pretty without thinking about these basic relationships. This should be seen as a failure of design, and one is much better off including these ideas as a vital part of any design process.
