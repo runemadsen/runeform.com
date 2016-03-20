@@ -10,26 +10,55 @@ As we begin our journey into the field of graphic design, it's important to star
 
 One can argue that the first step to becoming a better designer involves learning how to see. You can practice this by starting with a simple exercise: Making a design for a word. This allows you to become comfortable with some basic design techniques, and this is exactly where we'll start: By looking at the most basic relationship in graphic design, the relationship between a single shape and the canvas, and using three simple variables, the **position**, **size**, and **rotation** of a rectangle, to create designs for different words.
 
-Hard to talk about scale, proportion, etc in normal design books
-We are in code
-They are actual variables
-One of the things that make code great: It's a very concrete way of talking about design.
+When traditional design books talk about how to change certain properties of shapes to establish visual relationships, the reader is often left to replicate the designs by eyeballing the result. The great thing about code is that we can tie all these techniques to actual numbers in our programs. It's very concrete way to acquire design skills, and it supports one of the key notions of this book: You can become a great designer by learning a set of specific patterns.
 
+## Size
 
+When you start drawing shapes in a blank canvas, one of the first considerations to make, is what size your shapes should be. Size matters because it effectively communicates to the reader whether a thing is important or not.
 
+To make a shape dominant, we can make it fill most of the canvas. We recognize this pattern from many different scenarios in our daily lives: Traffic signs have the word *STOP* taking up most of the area of the sign. Dialog boxes block out most of the text of a website to leave you with a single or binary option.
 
-
-
-
-
-By changing the **size** of a shape, we can communicate whether the shape is important or not. Although this is a rather banal statement, it is nonetheless a crucial consideration to make.
+THIS NEEDS CODE:
 
 <div class="two-grid">
   {% include img.html src="canvas-and-shape/dominant.svg" caption="A dominant rectangle." datauri="true" %}
   {% include img.html src="canvas-and-shape/non-dominant.svg" caption="A non-dominant rectangle." datauri="true" %}
 </div>
 
-By changing the **position** and **rotation** of the rectangle, we can make it seem either static or dynamic. Furthermore, we can use the placement in relation to the canvas to direct the eye towards interesting visual clues.
+The size of a shape can therefore be used to bring clarity to your design, by making important shapes large and less important shapes small. In complex designs, it can often help to draw black boxes on top of the content to reveal this relationship.
+
+GOOD RELATIONSHIP - GOOD RELATIONSHIP WITH BLACK BOXES
+
+BAD RELATIONSHIP - BAD RELATIONSHIP WITH BLACK BOXES
+
+## Position
+
+Another important relationship that helps you prioritize the importance of shapes is the actual positioning of the shapes in the canvas. Most modern cultures have a natural reading direction (english is left to right, arabic right to left) that can be used to provide order to a design. Proper use of positioning simply gives the reader a clue about where to start.
+
+This pattern is used throughout the design world to create, in lack of a better word, rhythm. Graphic novels use the positioning of captions to guide the reader through the storyline. Most articles place the most important text in a heading at the top, which also tends to have a larger size to set it apart.
+
+THREE BOXES WITH LEFT, CENTER AND RIGHT POSITIONING. SEE NOTES.
+
+When you change the position of a shape, you also change the empty space between the shapes. This concept, often called whitespace, is another thing to look for. Notice how, in example X2, there is a equal amount of whitespace on the sides of the rectangle. This creates symmetry and balance, which is broken in example X3 where the square moves off center.
+
+{% include img.html src="test.svg" caption="In his famous ads for Volkswagen, William Bernbach used the position and size of the car to convey the message of the text." class="media-width" %}
+
+ANOTHER EXAMPLE
+
+## Rotation
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="two-grid">
   {% include img.html src="canvas-and-shape/balance.svg" caption="A balancing rectangle." datauri="true" %}
@@ -38,7 +67,7 @@ By changing the **position** and **rotation** of the rectangle, we can make it s
 
 Something about designers.
 
-{% include img.html src="test.svg" caption="In his famous ads for Volkswagen, William Bernbach used the position and size of the car to convey the message of the text." class="media-width" %}
+
 
 {% include img.html src="test.svg" caption="Paul Rand uses squares with different rotations to make a playful cover for a children's book." class="media-width" %}
 
